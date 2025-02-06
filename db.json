@@ -1,0 +1,975 @@
+{
+  "pilotos": [
+    {
+      "id": "1",
+      "nombre": "Max Verstappen",
+      "equipo": "Red Bull Racing",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/v1712849101/content/dam/fom-website/drivers/2024Drivers/verstappen.png",
+      "fechaNacimiento": "30/09/1997",
+      "Nacionalidad": "Belga"
+    },
+    {
+      "id": "2",
+      "nombre": "Sergio Pérez",
+      "equipo": "Red Bull Racing",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/perez",
+      "fechaNacimiento": "26/01/1990",
+      "Nacionalidad": "Mexicano"
+    },
+    {
+      "id": "3",
+      "nombre": "Lewis Hamilton",
+      "equipo": "Mercedes-AMG Petronas",
+      "rol": "Líder",
+      "imagen": "https://choiceracing.co.uk/cdn/shop/files/1_d8f72a1e-9a2b-4f96-a646-295152a72e31_1200x.jpg?v=1714326479",
+      "fechaNacimiento": "07/01/1985",
+      "Nacionalidad": "Britanico"
+    },
+    {
+      "id": "4",
+      "nombre": "George Russell",
+      "equipo": "Mercedes-AMG Petronas",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/v1712849109/content/dam/fom-website/drivers/2024Drivers/russell.png",
+      "fechaNacimiento": "15/02/1998",
+      "Nacionalidad": "Britanico"
+    },
+    {
+      "id": "5",
+      "nombre": "Charles Leclerc",
+      "equipo": "Ferrari",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/v1712849104/content/dam/fom-website/drivers/2024Drivers/leclerc.png",
+      "fechaNacimiento": "16/10/1997",
+      "Nacionalidad": "Monegasco"
+    },
+    {
+      "id": "6",
+      "nombre": "Carlos Sainz",
+      "equipo": "Ferrari",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/sainz",
+      "fechaNacimiento": "01/09/1994",
+      "Nacionalidad": "Español"
+    },
+    {
+      "id": "7",
+      "nombre": "Lando Norris",
+      "equipo": "McLaren",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/v1712849107/content/dam/fom-website/drivers/2024Drivers/norris.png",
+      "fechaNacimiento": "13/11/1999",
+      "Nacionalidad": "Britanico"
+    },
+    {
+      "id": "8",
+      "nombre": "Oscar Piastri",
+      "equipo": "McLaren",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/piastri",
+      "fechaNacimiento": "06/04/2001",
+      "Nacionalidad": "Australiano"
+    },
+    {
+      "id": "9",
+      "nombre": "Fernando Alonso",
+      "equipo": "Aston Martin",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/alonso",
+      "fechaNacimiento": "29/07/1981",
+      "Nacionalidad": "Español"
+    },
+    {
+      "id": "10",
+      "nombre": "Lance Stroll",
+      "equipo": "Aston Martin",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto/q_auto/v1712849104/content/dam/fom-website/drivers/2024Drivers/stroll.png",
+      "fechaNacimiento": "29/10/1998",
+      "Nacionalidad": "Canadiense"
+    },
+    {
+      "id": "11",
+      "nombre": "Esteban Ocon",
+      "equipo": "Alpine",
+      "rol": "Líder",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPxmtVpHOiuQVWM3JEkv_PqhsVgQqPmNC_YA&s",
+      "fechaNacimiento": "17/09/1996",
+      "Nacionalidad": "Frances"
+    },
+    {
+      "id": "12",
+      "nombre": "Pierre Gaslyyyyyy",
+      "equipo": "Seleccione...",
+      "rol": "",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/gasly",
+      "fechaNacimiento": "07/02/1996",
+      "pais": "Frances"
+    },
+    {
+      "id": "13",
+      "nombre": "Valtteri Bottas",
+      "equipo": "Kick Sauber",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/bottas",
+      "fechaNacimiento": "28/08/1989",
+      "Nacionalidad": "Finlandes"
+    },
+    {
+      "id": "14",
+      "nombre": "Zhou Guanyu",
+      "equipo": "Kick Sauber",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/zhou",
+      "fechaNacimiento": "30/05/1999",
+      "Nacionalidad": "Chino"
+    },
+    {
+      "id": "15",
+      "nombre": "Kevin Magnussen",
+      "equipo": "Haas",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/magnussen",
+      "fechaNacimiento": "05/10/1992",
+      "Nacionalidad": "Danés"
+    },
+    {
+      "id": "16",
+      "nombre": "Nico Hülkenberg",
+      "equipo": "Haas",
+      "rol": "Escudero",
+      "imagen": "https://image-service.zaonce.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiJmMW1hbmFnZXIvMjAyMy9kcml2ZXJzL2hlYWRzaG90cy9mMS9odWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDB9fX0=",
+      "fechaNacimiento": "19/08/1987",
+      "Nacionalidad": "Aleman"
+    },
+    {
+      "id": "17",
+      "nombre": "Yuki Tsunoda",
+      "equipo": "AlphaTauri",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/tsunoda",
+      "fechaNacimiento": "11/05/2000",
+      "Nacionalidad": "Japones"
+    },
+    {
+      "id": "18",
+      "nombre": "Daniel Ricciardo",
+      "equipo": "AlphaTauri",
+      "rol": "Escudero",
+      "imagen": "https://soymotor.com/sites/default/files/2024-02/daniel-ricciardo-2024.png",
+      "fechaNacimiento": "01/07/1989",
+      "Nacionalidad": "Australiano"
+    },
+    {
+      "id": "19",
+      "nombre": "Alexander Albon",
+      "equipo": "Williams",
+      "rol": "Líder",
+      "imagen": "https://media.formula1.com/image/upload/v1712849104/content/dam/fom-website/drivers/2024Drivers/albon.png",
+      "fechaNacimiento": "23/03/1996",
+      "Nacionalidad": "Britanico"
+    },
+    {
+      "id": "20",
+      "nombre": "Logan Sargeant",
+      "equipo": "Williams",
+      "rol": "Escudero",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBgr6W3V8FHYMxhqyKedK9KJs3UMGTjtRBw&s",
+      "fechaNacimiento": "31/12/2000",
+      "Nacionalidad": "Estadounidense"
+    },
+    {
+      "id": "21",
+      "nombre": "Sergio Pérez",
+      "equipo": "",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/perez",
+      "fechaNacimiento": "26/01/1990",
+      "Nacionalidad": "Mexicano"
+    },
+    {
+      "id": "22",
+      "nombre": "Sergio Pérez",
+      "equipo": "",
+      "rol": "Escudero",
+      "imagen": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/perez",
+      "fechaNacimiento": "26/01/1990",
+      "Nacionalidad": "Mexicano"
+    },
+    {
+      "id": "23",
+      "nombre": "sebas",
+      "equipo": "Red Bull Racing",
+      "rol": "lider",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi7CbaFVfg_BVR6Oq79D2OcKFLZooJoluXmA&s",
+      "fechaNacimiento": "2025-03-07",
+      "pais": "Colombia"
+    }
+  ],
+  "equipos": [
+    {
+      "nombre": "Red Bull Racing",
+      "pais": "Austria",
+      "motor": "Honda",
+      "pilotos": [
+        1,
+        2
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/B9EJclrhvPFedO9ZEz9Ni5sVtFwIEjRzl1VZnzr-BhM/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/red%2520bull.jpg?format=webp&width=1058&height=595",
+      "id": "9a8a"
+    },
+    {
+      "nombre": "Mercedes-AMG Petronas",
+      "pais": "Alemania",
+      "motor": "Mercedes",
+      "pilotos": [
+        3,
+        4
+      ],
+      "logo": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Ferrari",
+      "pais": "Italia",
+      "motor": "Ferrari",
+      "pilotos": [
+        5,
+        6
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/uXBFFIClsCD-SXLMZoLEbCHe9GLhFett3vPipAmcTgI/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/ferrari.jpg?format=webp&width=1058&height=595",
+      "id": "15d3"
+    },
+    {
+      "nombre": "McLaren",
+      "pais": "Reino Unido",
+      "motor": "Mercedes",
+      "pilotos": [
+        7,
+        8
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/d-Z-3pDihZAxdIaVwqI3H_G8Bg9Vt7Nr3iuaLmg2Sw0/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/mclaren.jpg?format=webp&width=1058&height=595",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Aston Martin",
+      "pais": "Reino Unido",
+      "motor": "Mercedes",
+      "pilotos": [
+        9,
+        10
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/aqBpmiPPrPjXBicLVyas6QUaSyHREeeWKVP-xtRBxUk/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/aston%2520martin.jpg?format=webp&width=1058&height=595",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Alpine",
+      "pais": "Francia",
+      "motor": "Renault",
+      "pilotos": [
+        11,
+        12
+      ],
+      "logo": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Kick Sauber",
+      "pais": "Suiza",
+      "motor": "Ferrari",
+      "pilotos": [
+        13,
+        14
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/SYY0_ZC_pok08c_RTtJxTAgmADDlYneo-6rpanMHiFc/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/alfa%2520romeo.jpg?format=webp&width=1058&height=595",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Haas",
+      "pais": "Estados Unidos",
+      "motor": "Ferrari",
+      "pilotos": [
+        15,
+        16
+      ],
+      "logo": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/haas",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "AlphaTauri",
+      "pais": "Italia",
+      "motor": "Honda",
+      "pilotos": [
+        17,
+        18
+      ],
+      "logo": "https://images-ext-1.discordapp.net/external/SS3kWLG0oKfTTeujrct7y8ifygJlgAu7tjQeP51DS_Q/https/media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%2520logos/alphatauri.jpg?format=webp&width=1058&height=595",
+      "id": "3e3a"
+    },
+    {
+      "nombre": "Williams",
+      "pais": "Reino Unido",
+      "motor": "Mercedes",
+      "pilotos": [
+        19,
+        20
+      ],
+      "logo": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/williams",
+      "id": "3e3a"
+    }
+  ],
+  "circuitos": [
+    {
+      "id": "36bf",
+      "round": "TESTING",
+      "type": "testing",
+      "dates": "26-28",
+      "month": "FEB",
+      "country": "Sakhir",
+      "flag": "🇧🇭",
+      "title": "FORMULA 1 ARAMCO PRE-SEASON",
+      "subtitle": "TESTING 2025",
+      "circuitImage": "../img/Qatar carbon.avif",
+      "record_vuelta": {
+        "tiempo": "1:10.166",
+        "piloto": "Lewis Hamilton",
+        "año": 2019
+      },
+      "ganadores": [
+        {
+          "temporada": 2021,
+          "piloto": 1
+        },
+        {
+          "temporada": 2022,
+          "piloto": 2
+        },
+        {
+          "temporada": 2023,
+          "piloto": 1
+        }
+      ],
+      "longitud": "5.412 km",
+      "numero_vueltas": 57,
+      "description": "Circuito de pruebas en Sakhir antes del inicio de la temporada."
+    },
+    {
+      "id": "9e17",
+      "round": "ROUND 1",
+      "type": "race",
+      "dates": "14-16",
+      "month": "MAR",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "title": "FORMULA 1 LOUIS VUITTON AUSTRALIAN",
+      "subtitle": "GRAND PRIX 2025",
+      "circuitImage": "../img/Australia carbon.avif",
+      "record_vuelta": {
+        "tiempo": "1:27.097",
+        "piloto": "Max Verstappen",
+        "año": 2020
+      },
+      "ganadores": [
+        {
+          "temporada": 2021,
+          "piloto": 3
+        },
+        {
+          "temporada": 2022,
+          "piloto": 5
+        },
+        {
+          "temporada": 2023,
+          "piloto": 1
+        }
+      ],
+      "longitud": "5.303 km",
+      "numero_vueltas": 58,
+      "description": "Uno de los circuitos más icónicos de la temporada, ubicado en Melbourne."
+    },
+    {
+      "id": "c5a2",
+      "round": "ROUND 2",
+      "type": "race",
+      "dates": "21-23",
+      "month": "MAR",
+      "country": "China",
+      "flag": "🇨🇳",
+      "title": "FORMULA 1 HEINEKEN CHINESE GRAND",
+      "subtitle": "PRIX 2025",
+      "circuitImage": "../img/China carbon.avif",
+      "record_vuelta": {
+        "tiempo": "1:46.286",
+        "piloto": "Valtteri Bottas",
+        "año": 2018
+      },
+      "ganadores": [
+        {
+          "temporada": 2021,
+          "piloto": 1
+        },
+        {
+          "temporada": 2022,
+          "piloto": 1
+        },
+        {
+          "temporada": 2023,
+          "piloto": 1
+        }
+      ],
+      "longitud": "5.451 km",
+      "numero_vueltas": 56,
+      "description": "Circuito moderno con una larga recta ideal para adelantamientos."
+    },
+    {
+      "id": "0566",
+      "round": "ROUND 3",
+      "type": "race",
+      "dates": "04-06",
+      "month": "APR",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "title": "FORMULA 1 LENOVO JAPANESE GRAND",
+      "subtitle": "PRIX 2025",
+      "circuitImage": "../img/Japan carbon.avif",
+      "record_vuelta": {
+        "tiempo": "1:21.046",
+        "piloto": "Rubens Barrichello",
+        "año": 2004
+      },
+      "ganadores": [
+        {
+          "temporada": 2021,
+          "piloto": 2
+        },
+        {
+          "temporada": 2022,
+          "piloto": 1
+        },
+        {
+          "temporada": 2023,
+          "piloto": 1
+        }
+      ],
+      "longitud": "5.807 km",
+      "numero_vueltas": 53,
+      "description": "Circuito técnico y desafiante con curvas icónicas como la 130R."
+    }
+  ],
+  "vehiculos": [
+    {
+      "equipo": "Mercedes-AMG Petronas",
+      "modelo": "W15",
+      "motor": "Mercedes",
+      "velocidad_maxima_kmh": 350,
+      "aceleracion_0_100": 2.6,
+      "pilotos": [
+        3,
+        4
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 315,
+          "consumo_combustible": {
+            "seco": 2,
+            "lluvioso": 2.2,
+            "extremo": 2.5
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.6,
+            "lluvioso": 0.9,
+            "extremo": 2.6
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 335,
+          "consumo_combustible": {
+            "seco": 2.6,
+            "lluvioso": 2.8,
+            "extremo": 3.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.3,
+            "lluvioso": 1.4,
+            "extremo": 3.8
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 295,
+          "consumo_combustible": {
+            "seco": 1.7,
+            "lluvioso": 1.9,
+            "extremo": 2.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.1,
+            "lluvioso": 0.6,
+            "extremo": 1.9
+          }
+        }
+      },
+      "imagen1": "../src/img/w15Defrente-removebg-preview.png",
+      "imagen2": "../src/img/w15Lado-removebg-preview.png",
+      "id": "2e14"
+    },
+    {
+      "equipo": "Ferrari",
+      "modelo": "SF-24",
+      "motor": "Ferrari",
+      "velocidad_maxima_kmh": 352,
+      "aceleracion_0_100": 2.6,
+      "pilotos": [
+        1,
+        2
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 320,
+          "consumo_combustible": {
+            "seco": 1.9,
+            "lluvioso": 2.1,
+            "extremo": 2.4
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.5,
+            "lluvioso": 0.8,
+            "extremo": 2.5
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 340,
+          "consumo_combustible": {
+            "seco": 2.4,
+            "lluvioso": 2.6,
+            "extremo": 3
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.2,
+            "lluvioso": 1.2,
+            "extremo": 3.5
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 300,
+          "consumo_combustible": {
+            "seco": 1.6,
+            "lluvioso": 1.8,
+            "extremo": 2.1
+          },
+          "desgaste_neumaticos": {
+            "seco": 1,
+            "lluvioso": 0.5,
+            "extremo": 1.8
+          }
+        }
+      },
+      "imagen1": "../src/img/Ferrari.png",
+      "imagen2": "../src/img/FerrariLD.png",
+      "id": "2417"
+    },
+    {
+      "equipo": "McLaren",
+      "modelo": "MCL38",
+      "motor": "Mercedes",
+      "velocidad_maxima_kmh": 345,
+      "aceleracion_0_100": 2.7,
+      "pilotos": [
+        3,
+        4
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 315,
+          "consumo_combustible": {
+            "seco": 2,
+            "lluvioso": 2.2,
+            "extremo": 2.5
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.6,
+            "lluvioso": 0.9,
+            "extremo": 2.6
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 335,
+          "consumo_combustible": {
+            "seco": 2.6,
+            "lluvioso": 2.8,
+            "extremo": 3.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.3,
+            "lluvioso": 1.4,
+            "extremo": 3.8
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 295,
+          "consumo_combustible": {
+            "seco": 1.7,
+            "lluvioso": 1.9,
+            "extremo": 2.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.1,
+            "lluvioso": 0.6,
+            "extremo": 1.9
+          }
+        }
+      },
+      "imagen1": "../src/img/MclarenFront.png",
+      "imagen2": "../src/img/MclarenLD.png",
+      "id": "7c10"
+    },
+    {
+      "equipo": "Aston Martin",
+      "modelo": "AMR24",
+      "motor": "Mercedes",
+      "velocidad_maxima_kmh": 347,
+      "aceleracion_0_100": 2.7,
+      "pilotos": [
+        1,
+        2
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 320,
+          "consumo_combustible": {
+            "seco": 1.9,
+            "lluvioso": 2.1,
+            "extremo": 2.4
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.5,
+            "lluvioso": 0.8,
+            "extremo": 2.5
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 340,
+          "consumo_combustible": {
+            "seco": 2.4,
+            "lluvioso": 2.6,
+            "extremo": 3
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.2,
+            "lluvioso": 1.2,
+            "extremo": 3.5
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 300,
+          "consumo_combustible": {
+            "seco": 1.6,
+            "lluvioso": 1.8,
+            "extremo": 2.1
+          },
+          "desgaste_neumaticos": {
+            "seco": 1,
+            "lluvioso": 0.5,
+            "extremo": 1.8
+          }
+        }
+      },
+      "imagen1": "../src/img/AstonFront.png",
+      "imagen2": "../src/img/AstonLD.png",
+      "id": "bcfa"
+    },
+    {
+      "equipo": "Alpine",
+      "modelo": "A524",
+      "motor": "Renault",
+      "velocidad_maxima_kmh": 342,
+      "aceleracion_0_100": 2.8,
+      "pilotos": [
+        3,
+        4
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 315,
+          "consumo_combustible": {
+            "seco": 2,
+            "lluvioso": 2.2,
+            "extremo": 2.5
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.6,
+            "lluvioso": 0.9,
+            "extremo": 2.6
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 335,
+          "consumo_combustible": {
+            "seco": 2.6,
+            "lluvioso": 2.8,
+            "extremo": 3.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.3,
+            "lluvioso": 1.4,
+            "extremo": 3.8
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 295,
+          "consumo_combustible": {
+            "seco": 1.7,
+            "lluvioso": 1.9,
+            "extremo": 2.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.1,
+            "lluvioso": 0.6,
+            "extremo": 1.9
+          }
+        }
+      },
+      "imagen1": "../src/img/AlpineFront.png",
+      "imagen2": "../src/img/AlpineLD.png",
+      "id": "ba42"
+    },
+    {
+      "equipo": "Williams",
+      "modelo": "FW46",
+      "motor": "Mercedes",
+      "velocidad_maxima_kmh": 340,
+      "aceleracion_0_100": 2.8,
+      "pilotos": [
+        1,
+        2
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 320,
+          "consumo_combustible": {
+            "seco": 1.9,
+            "lluvioso": 2.1,
+            "extremo": 2.4
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.5,
+            "lluvioso": 0.8,
+            "extremo": 2.5
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 340,
+          "consumo_combustible": {
+            "seco": 2.4,
+            "lluvioso": 2.6,
+            "extremo": 3
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.2,
+            "lluvioso": 1.2,
+            "extremo": 3.5
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 300,
+          "consumo_combustible": {
+            "seco": 1.6,
+            "lluvioso": 1.8,
+            "extremo": 2.1
+          },
+          "desgaste_neumaticos": {
+            "seco": 1,
+            "lluvioso": 0.5,
+            "extremo": 1.8
+          }
+        }
+      },
+      "imagen1": "../src/img/WilliamsFront.png",
+      "imagen2": "../src/img/WilliamsLD.png",
+      "id": "624c"
+    },
+    {
+      "equipo": "AlphaTauri",
+      "modelo": "AT02",
+      "motor": "Honda",
+      "velocidad_maxima_kmh": 338,
+      "aceleracion_0_100": 2.9,
+      "pilotos": [
+        3,
+        4
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 315,
+          "consumo_combustible": {
+            "seco": 2,
+            "lluvioso": 2.2,
+            "extremo": 2.5
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.6,
+            "lluvioso": 0.9,
+            "extremo": 2.6
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 335,
+          "consumo_combustible": {
+            "seco": 2.6,
+            "lluvioso": 2.8,
+            "extremo": 3.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.3,
+            "lluvioso": 1.4,
+            "extremo": 3.8
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 295,
+          "consumo_combustible": {
+            "seco": 1.7,
+            "lluvioso": 1.9,
+            "extremo": 2.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.1,
+            "lluvioso": 0.6,
+            "extremo": 1.9
+          }
+        }
+      },
+      "imagen1": "../src/img/AlphaFront.png",
+      "imagen2": "../src/img/AlphaLD.png",
+      "id": "cf00"
+    },
+    {
+      "equipo": "Alfa Romeo (Stake F1 Team)",
+      "modelo": "C44",
+      "motor": "Ferrari",
+      "velocidad_maxima_kmh": 336,
+      "aceleracion_0_100": 2.9,
+      "pilotos": [
+        1,
+        2
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 320,
+          "consumo_combustible": {
+            "seco": 1.9,
+            "lluvioso": 2.1,
+            "extremo": 2.4
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.5,
+            "lluvioso": 0.8,
+            "extremo": 2.5
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 340,
+          "consumo_combustible": {
+            "seco": 2.4,
+            "lluvioso": 2.6,
+            "extremo": 3
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.2,
+            "lluvioso": 1.2,
+            "extremo": 3.5
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 300,
+          "consumo_combustible": {
+            "seco": 1.6,
+            "lluvioso": 1.8,
+            "extremo": 2.1
+          },
+          "desgaste_neumaticos": {
+            "seco": 1,
+            "lluvioso": 0.5,
+            "extremo": 1.8
+          }
+        }
+      },
+      "imagen1": "../src/img/AlfaFront.png",
+      "imagen2": "../src/img/AlfaLD.png",
+      "id": "3a7e"
+    },
+    {
+      "equipo": "Haas",
+      "modelo": "VF-24",
+      "motor": "Ferrari",
+      "velocidad_maxima_kmh": 334,
+      "aceleracion_0_100": 3,
+      "pilotos": [
+        3,
+        4
+      ],
+      "rendimiento": {
+        "conduccion_normal": {
+          "velocidad_promedio_kmh": 315,
+          "consumo_combustible": {
+            "seco": 2,
+            "lluvioso": 2.2,
+            "extremo": 2.5
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.6,
+            "lluvioso": 0.9,
+            "extremo": 2.6
+          }
+        },
+        "conduccion_agresiva": {
+          "velocidad_promedio_kmh": 335,
+          "consumo_combustible": {
+            "seco": 2.6,
+            "lluvioso": 2.8,
+            "extremo": 3.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 2.3,
+            "lluvioso": 1.4,
+            "extremo": 3.8
+          }
+        },
+        "ahorro_combustible": {
+          "velocidad_promedio_kmh": 295,
+          "consumo_combustible": {
+            "seco": 1.7,
+            "lluvioso": 1.9,
+            "extremo": 2.2
+          },
+          "desgaste_neumaticos": {
+            "seco": 1.1,
+            "lluvioso": 0.6,
+            "extremo": 1.9
+          }
+        }
+      },
+      "imagen1": "../src/img/HaasFront.png",
+      "imagen2": "../src/img/HaasLD.png",
+      "id": "88b4"
+    }
+  ],
+  "podio": [
+    {
+      "equipo": "Red Bull Racing",
+      "puntos": 250,
+      "id": "934c"
+    },
+    {
+      "equipo": "Ferrari",
+      "puntos": 50,
+      "id": "8e15"
+    },
+    {
+      "id": "492a",
+      "equipo": "Aston Martin",
+      "puntos": 25
+    }
+  ]
+}
